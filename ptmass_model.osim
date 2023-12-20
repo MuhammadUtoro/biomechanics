@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<OpenSimDocument Version="40000">
+<OpenSimDocument Version="40500">
 	<Model name="model">
 		<!--The model's ground reference frame.-->
 		<Ground name="ground">
@@ -63,7 +63,7 @@
 		<ControllerSet name="controllerset">
 			<objects>
 				<PrescribedController name="prescribedcontroller">
-					<!--The list of model actuators that this controller will control.The keyword ALL indicates the controller will control all the actuators in the model-->
+					<!--The names of the model actuators that this controller will control.The keyword ALL indicates the controller will control all the actuators in the model-->
 					<actuator_list>actuator</actuator_list>
 					<!--Functions (one per control) describing the controls for actuatorsspecified for this controller.-->
 					<FunctionSet name="ControlFunctions">
